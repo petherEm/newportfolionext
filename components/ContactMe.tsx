@@ -29,7 +29,7 @@ const ContactMe = ({ socials }: Props) => {
       </h3>
       <div className="flex flex-col space-y-10">
         <h4 className="text-xl md:text-4xl font-semibold text-center">
-          Coffee? Let&aposs get {" "}
+          Coffee? Let&apos;s get {" "}
           <span className="decoration-[#6e2fd2]/50 underline">in touch.</span>
         </h4>
 

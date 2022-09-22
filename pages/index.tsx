@@ -17,7 +17,7 @@ import { fetchSocial } from "../utils/fetchSocials";
 import { fetchProjects } from "../utils/fetchProjects";
 
 type Props = {
-  pageInfo: PageInfo[];
+  pageInfo: PageInfo;
   experiences: Experience[];
   skills: Skill[];
   projects: Project[];
