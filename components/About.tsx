@@ -54,7 +54,7 @@ function About({ pageInfo }: Props) {
           discovered the power of <b>Javascript and Python</b> which I
           extensively mastered and applied at day to day work. I graduated from{" "}
           <b>Warsaw School of Economics</b> (Master in Banking & Finance).{" "}
-          <br />I am also <b>Warwick Business School alumnus with 'Merit'</b>,
+          <br />I am also <b>Warwick Business School alumnus with &aposMerit&apos</b>,
           my thesis explores AI adoption across Financial Institutions.
           <br />
           <span className="hidden md:block">

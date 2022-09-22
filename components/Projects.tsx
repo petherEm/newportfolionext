@@ -24,7 +24,7 @@ const Projects = ({ projects }: Props) => {
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20  scrollbar-track-gray-400/20 scrollbar-thin scrollbar-thumb-[#432770e7]">
         {projects?.map((project, i) => (
-          <div className="md:w-[900px] flex-shrink-0 snap-center flex flex-col space-y-2 md:space-y-4 items-center justify-center p-20 md:p-44 h-[800px] mt-10">
+          <div key={project._id} className="md:w-[900px] flex-shrink-0 snap-center flex flex-col space-y-2 md:space-y-4 items-center justify-center p-20 md:p-44 h-[800px] mt-10">
             <motion.img
               initial={{
                 y: -300,
