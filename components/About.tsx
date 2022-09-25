@@ -15,7 +15,7 @@ function About({ pageInfo }: Props) {
       transition={{ duration: 1.5 }}
       className="flex flex-col relative text-left h-screen md:flex-row max-w-7xl px-4 md:px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
+      <h3 className="hidden absolute top-16 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
         About
       </h3>
 
@@ -34,20 +34,20 @@ function About({ pageInfo }: Props) {
       />
 
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="hidden md:block text-4xl font-semibold">
+        <h4 className="hidden text-md md:block text-4xl font-semibold">
           <span className="underline decoration-[#6e2fd2]">Professional</span>{" "}
           background
         </h4>
-        <p className="text-[15px] md:text-lg xl:text-lg">
+        <p className="text-[13px] md:text-[16px]">
           {pageInfo?.backgroundInformation}
         </p>
         <h4 className="hidden md:block text-4xl font-semibold">
           <span className="underline decoration-[#6e2fd2]">
-           Passions
+           Interests
           </span>{" "}
           and Education
         </h4>
-        <p className="text-[15px] md:text-lg xl:text-lg">
+        <p className="text-[14px] md:text-[16px]">
           Since I was 8, I have been passionate about programming and computer
           science. My computer science adventure started with{" "}
           <b>Amstrad CPC 6128</b> and a very simple BASIC code. Later, I

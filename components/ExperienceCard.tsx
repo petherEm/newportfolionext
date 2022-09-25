@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }: Props) => {
             alt="logo"
           />
           <div>
-            <h4 className="text-xl md:text-2xl font-light">{experience.jobTitle}</h4>
+            <h4 className="text-md md:text-2xl font-light">{experience.jobTitle}</h4>
             <p className="font-bold text-md md:text-xl mt-1">{experience.company}</p>
           </div>
         </motion.div>
@@ -58,7 +58,7 @@ const ExperienceCard = ({ experience }: Props) => {
           </>
         </p>
         
-        <ul className="list-disc space-y-4 ml-5 text-md md:text-lg h-80 overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A/80]">
+        <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg h-80 overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A/80]">
           {experience.points.map((point, i) => (
             <li key={i}>{point}</li>
           ))}
