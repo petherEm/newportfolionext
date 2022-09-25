@@ -10,10 +10,10 @@ type Props = {
 
 function Skill({ skill, directionLeft }: Props) {
   return (
-    <div className="group relative flex flex-col items-center cursor-pointer">
+    <div className="group relative flex flex-col justify-center items-center cursor-pointer">
       <motion.div
         initial={{
-          x: directionLeft ? -200 : 200,
+          x: 0,
           opacity: 0,
         }}
         transition={{
@@ -31,7 +31,7 @@ function Skill({ skill, directionLeft }: Props) {
             <p className="text-xl md:text-3xl text-black font-bold">{skill.progress}%</p>
           </div>
         </div>
-        <p className="text-xs uppercase text-gray-500 mt-2">{skill.title}</p>
+        <p className="text-[8px] md:text-xs uppercase text-gray-500 mt-2">{skill.title}</p>
       </motion.div>
     </div>
   );
