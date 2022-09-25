@@ -7,7 +7,7 @@ const query = groq`
     *[_type == "project"] {
         ...,
         technologies[]->
-    }
+    } | order(order desc)
 `;
 
 type Data = {

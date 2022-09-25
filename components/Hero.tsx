@@ -30,8 +30,9 @@ function Hero({ pageInfo }: Props) {
         alt="profile"
         className="relative rounded-full mx-auto h-52 w-52 object-cover"
       />
-      
+
       <div className="z-20">
+        
         <h2 className="text-md font-semibold uppercase text-gray-400 pb-4 tracking-[15px]">
           {pageInfo?.role}
         </h2>
