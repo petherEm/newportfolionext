@@ -49,7 +49,7 @@ function About({ pageInfo }: Props) {
         </h4>
         <p className="text-[14px] md:text-[16px]">
           Since I was 8, I have been passionate about programming and computer
-          science. My computer science adventure started with{" "}
+          science. It all began with{" "}
           <b>Amstrad CPC 6128</b> and a very simple BASIC code. Later, I
           discovered the power of <b>Javascript and Python</b> which I
           extensively mastered and applied at day to day work. I graduated from{" "}
