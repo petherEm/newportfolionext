@@ -10,7 +10,7 @@ type Props = {
 
 const ExperienceCard = ({ experience }: Props) => {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-2 h-[550px] flex-shrink-0 w-[400px] md:w-[600px] md:max-h-[700px] xl:w-[900px] xl:max-h-[700px] snap-center p-4 md:p-10 bg-[#201f1f] hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-2 h-[550px] flex-shrink-0 w-[400px] md:w-[600px] md:h-[420px] md:max-h-[650px] xl:w-[900px] xl:max-h-[700px] snap-center p-4 md:p-10 bg-[#201f1f] hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <div className="px-0 md:px-10">
         <div
           // initial={{

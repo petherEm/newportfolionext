@@ -42,7 +42,6 @@ export default function Header({ socials }: Props) {
             />
           ))}
         </div>
-        
       </motion.div>
 
       <div className="flex items-center justify-center">
