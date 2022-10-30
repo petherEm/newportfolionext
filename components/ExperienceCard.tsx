@@ -11,7 +11,7 @@ type Props = {
 const ExperienceCard = ({ experience }: Props) => {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-2 h-[550px] flex-shrink-0 w-[400px] md:w-[600px] md:h-[420px] md:max-h-[650px] xl:w-[900px] xl:max-h-[700px] snap-center p-4 md:p-10 bg-[#201f1f] hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
-      <div className="px-0 md:px-10">
+      <div className="px-0 md:px-4">
         <div
           // initial={{
           //   y: -100,
@@ -29,10 +29,15 @@ const ExperienceCard = ({ experience }: Props) => {
             height="80px"
             width="80px"
             objectFit="contain"
+            
           />
           <div>
-            <h4 className="text-md md:text-2xl font-light">{experience.jobTitle}</h4>
-            <p className="font-bold text-md md:text-xl mt-1">{experience.company}</p>
+            <h4 className="text-md md:text-xl font-light">
+              {experience.jobTitle}
+            </h4>
+            <p className="font-bold text-md md:text-md mt-1">
+              {experience.company}
+            </p>
           </div>
         </div>
 
@@ -61,8 +66,8 @@ const ExperienceCard = ({ experience }: Props) => {
                 })}
           </>
         </p>
-        
-        <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg h-80 overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A/80]">
+
+        <ul className="list-disc space-y-4 ml-2 text-sm md:text-md h-80 overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A/80]">
           {experience.points.map((point, i) => (
             <li key={i}>{point}</li>
           ))}

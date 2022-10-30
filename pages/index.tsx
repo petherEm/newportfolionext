@@ -29,18 +29,21 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
     <div className="bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#432770e7]">
       <Head>
         <title>PiotrDev - Piotr Maciejewski</title>
-        <meta name="description" content="Full Stack Development, React, Javascript, Python, Banking, Finance, " />
+        <meta
+          name="description"
+          content="Full Stack, React, Javascript, Python, Banking, Finance, Payments "
+        />
         <link rel="icon" href="/logo.ico" />
       </Head>
 
       <Header socials={socials} />
 
       <section id="hero" className="snap-start">
-        <Hero pageInfo={pageInfo}/>
+        <Hero pageInfo={pageInfo} />
       </section>
 
       <section id="about" className="snap-center">
-        <About pageInfo={pageInfo}/>
+        <About pageInfo={pageInfo} />
       </section>
 
       <section id="experience" className="snap-center">
