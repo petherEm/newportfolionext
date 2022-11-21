@@ -16,10 +16,10 @@ const Projects = ({ projects }: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl xl:text-4xl xl:top-40">
         Projects
       </h3>
-      <h3 className="absolute text-center top-36 uppercase tracking-[10px] text-gray-400 text-[10px] md:text-md">
+      <h3 className="absolute text-center top-36 xl:top-60 uppercase tracking-[10px] text-gray-400 text-[10px] md:text-md">
         Private projects - web dev only
       </h3>
 
@@ -68,7 +68,7 @@ const Projects = ({ projects }: Props) => {
                     {project?.title}
                   </h4>
                   <div className="p-2 flex flex-wrap w-[300px] md:w-auto">
-                    <p className="text-sm md:text-lg text-center md:text-left">
+                    <p className="text-sm md:text-lg xl:text-xl text-center md:text-left">
                       {project?.summary}
                     </p>
                   </div>

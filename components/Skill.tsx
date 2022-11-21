@@ -33,7 +33,7 @@ function Skill({ skill, directionLeft }: Props) {
             </p>
           </div>
         </div>
-        <p className="text-[8px] md:text-xs uppercase text-gray-500 mt-2">
+        <p className="text-[8px] md:text-xs xl:text-lg uppercase text-gray-500 mt-2">
           {skill.title}
         </p>
       </motion.div>

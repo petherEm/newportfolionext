@@ -38,7 +38,7 @@ function About({ pageInfo }: Props) {
           <span className="underline decoration-[#6e2fd2]">Professional</span>{" "}
           background
         </h4>
-        <p className="text-[13px] md:text-[16px]">
+        <p className="text-[13px] md:text-[16px] xl:text-[20px]">
           {pageInfo?.backgroundInformation}
         </p>
         <h4 className="hidden md:block text-4xl font-semibold">
@@ -47,7 +47,7 @@ function About({ pageInfo }: Props) {
           </span>{" "}
           and Education
         </h4>
-        <p className="text-[14px] md:text-[16px]">
+        <p className="text-[13px] md:text-[16px] xl:text-[20px]">
           Since I was 8, I have been passionate about programming and computer
           science. It all began with{" "}
           <b>Amstrad CPC 6128</b> and a very simple BASIC code. Later, I

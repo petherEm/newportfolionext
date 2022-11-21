@@ -9,7 +9,7 @@ type Props = {
 function Experience({ experiences }: Props) {
   return (
     <div className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-2 md:px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 md:top-20 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
+      <h3 className="absolute top-24 md:top-20 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl xl:text-4xl xl:top-40">
         Experience
       </h3>
 
