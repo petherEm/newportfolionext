@@ -4,10 +4,10 @@ import { sanityClient } from "../../sanity";
 import { Project } from "../../typings";
 
 const query = groq`
-    *[_type == "project"] {
+    *[_type == "project"] | order(_createdAt desc) {
         ...,
         technologies[]->
-    } | order(order desc)
+    } 
 `;
 
 type Data = {
