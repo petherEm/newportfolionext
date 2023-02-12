@@ -45,7 +45,7 @@ export default function Header({ socials }: Props) {
       </motion.div>
 
       <div className="flex items-center justify-center">
-        <Link href="https://blog.piotrmaciejewski.com">
+        <Link href="https://www.piotrmaciejewski.com/articles">
           <motion.div
             initial={{
               x: 500,
