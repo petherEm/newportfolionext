@@ -27,10 +27,7 @@ export default function Header({ socials }: Props) {
         }}
         className="flex flex-col items-start"
       >
-        <div className="flex items-center justify-center space-x-2">
-          <div className="bg-green-500 h-4 w-4 rounded-full animate-pulse" />
-          <p className="text-[8px] uppercase">Open for projects</p>
-        </div>
+        
         <div className="flex flex-row items-center">
           {/* Social Icons */}
           {socials.map((social) => (
@@ -41,6 +38,10 @@ export default function Header({ socials }: Props) {
               bgColor="transparent"
             />
           ))}
+        </div>
+        <div className="flex items-center justify-center space-x-2">
+          <div className="ml-4 bg-green-500 h-4 w-4 rounded-full animate-pulse" />
+          <p className="text-[8px] uppercase">Open for projects</p>
         </div>
       </motion.div>
 
